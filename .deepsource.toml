@@ -1,13 +1,13 @@
 version = 1
 
 [[analyzers]]
-name = "go"
-
-  [analyzers.meta]
-  import_root = "github.com/simar437/cortex"
-
-[[analyzers]]
 name = "docker"
 
 [[analyzers]]
 name = "shell"
+
+[[analyzers]]
+name = "go"
+
+  [analyzers.meta]
+  import_root = "github.com/simar437/cortex"
